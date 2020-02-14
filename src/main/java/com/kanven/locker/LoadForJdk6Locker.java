@@ -17,7 +17,7 @@ public class LoadForJdk6Locker {
 		File file = new File("");
 		String path = file.getAbsolutePath();
 		final CL1 cl1 = new CL1(new URL[] { new URL("file://" + path + File.separator + "pk1" + File.separator) });
-		final CL2 cl2 = new CL2(new URL[] { new URL("file://" + path + File.separator + "pk1" + File.separator) });
+		final CL2 cl2 = new CL2(new URL[] { new URL("file://" + path + File.separator + "pk2" + File.separator) });
 		new Thread(new Runnable() {
 			public void run() {
 				try {
